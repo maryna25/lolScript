@@ -22,6 +22,6 @@ function chmod() {
   eval "xinput --enable 8"
   eval "xinput --enable 9"
 
-  echo "$password" | sudo -S shutdown -h now
+  eval "shutdown -h now"
 }
 
